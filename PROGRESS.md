@@ -50,3 +50,4 @@ Next Plan:
 -Membuat struktur database di MySQL
 
 -Membuat koneksi awal antara frontend dan backend
+
