@@ -40,3 +40,10 @@ Use Case User:
 Use Case Admin:
 
 ![use case admin](https://github.com/user-attachments/assets/b3fce41e-e910-4237-948b-7baad879be52)
+
+
+
+Next Plan:
+-Mendesain halaman utama, login, dan registrasi (Frontend)
+-Membuat struktur database di MySQL
+-Membuat koneksi awal antara frontend dan backend
