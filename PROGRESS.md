@@ -1,4 +1,4 @@
-29 Sept 2025 - 03 Oct 2025
+03 Oct 2025 - 10 Oct 2025
 
 2372036 - Muhammad Sava Akbar Bastaman: Color palette, Database diagram, Activity diagram, Use case user & admin
 
@@ -27,6 +27,7 @@ Database Diagram:
 Activity Diagram: 
 
 <img width="796" height="2100" alt="activity diagram" src="https://github.com/user-attachments/assets/746f6019-8dec-4f57-b042-0ae8451d6370" />
+
 
 
 
