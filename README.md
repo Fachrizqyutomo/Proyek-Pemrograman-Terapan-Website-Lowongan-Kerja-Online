@@ -1,12 +1,15 @@
-# Proyek-Pemrograman-Terapan-Game-Edukatif-Anak
+# Proyek-Pemrograman-Terapan_Website-Lowongan-Kerja-Online
+
 
 **Judul Proyek:**
 
-Game Edukatif Anak Berbasis Web Menggunakan HTML, CSS, dan JavaScript
+Proyek Pemrograman Terapan untuk membuat Website Lowongan Kerja Online yang mempertemukan pelamar dan perusahaan.
 
 **Deskripsi proyek:**
 
-Proyek Pemrograman Terapan untuk membuat Game Edukatif Anak berbasis Web dengan dua jenis permainan utama: Tebak Gambar dan Kuis Interaktif. Game ini dilengkapi fitur akun (gratis & premium), sistem coin, hint, level, bonus harian, musik, animasi interaktif, serta penyimpanan progres pemain pada database.
+Website ini memiliki dua jenis pengguna: Pelamar dan Perusahaan.
+Pelamar dapat membuat akun, mencari, dan melamar pekerjaan; sedangkan perusahaan dapat mendaftarkan akun, mengiklankan lowongan, serta meninjau lamaran pelamar.
+Fitur meliputi: sistem akun (pelamar & perusahaan), manajemen lowongan, unggah CV, pencarian pekerjaan, notifikasi, serta penyimpanan data di database.
 
 **Anggota Kelompok:**
 
