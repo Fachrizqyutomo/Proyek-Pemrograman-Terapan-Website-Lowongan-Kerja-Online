@@ -44,6 +44,9 @@ Use Case Admin:
 
 
 Next Plan:
+
 -Mendesain halaman utama, login, dan registrasi (Frontend)
+
 -Membuat struktur database di MySQL
+
 -Membuat koneksi awal antara frontend dan backend
