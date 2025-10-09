@@ -10,4 +10,4 @@
 
 
 
-<img width="1135" height="845" alt="image" src="https://github.com/user-attachments/assets/ea34d008-4268-4c3d-ac2d-48df2d63474e" />
+<img width="735" height="445" alt="image" src="https://github.com/user-attachments/assets/ea34d008-4268-4c3d-ac2d-48df2d63474e" />
