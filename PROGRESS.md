@@ -1,4 +1,4 @@
-03 Oct 2025 - 10 Oct 2025 (Minggu ke - 4)
+03 Oct 2025 - 10 Oct 2025 (Minggu ke - 3)
 
 2372036 - Muhammad Sava Akbar Bastaman: Color palette, Database diagram, Activity diagram, Use case user & admin
 
