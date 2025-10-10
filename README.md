@@ -17,6 +17,6 @@ Fitur meliputi: sistem akun (pelamar & perusahaan), manajemen lowongan, unggah C
 
 2372063 - Rafri Pria Pamungkas
 
-2372022 - Jason Christian
+2372022 - Jason Christian Jonathan
 
 2372902 - Fachrizqy Utomo
