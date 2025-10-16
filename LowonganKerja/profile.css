@@ -1,0 +1,99 @@
+.profil-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profil-info {
+    text-align: center;
+}
+
+.profil-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profil-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profil-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+.daftar-lamaran {
+    margin-top: 50px;
+}
+
+.daftar-lamaran h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.daftar-lamaran ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.daftar-lamaran li {
+    margin-bottom: 20px;
+    padding:  10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.daftar-lamaran li h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.daftar-lamaran li p {
+    font-size: 16px;
+    color: #555;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-primary:active {
+    background-color: #004c99;
+  }
+  .btn-primary {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  .status-diterima {
+    color: green;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-ditolak {
+    color: red;
+    font-weight: bold;
+}
