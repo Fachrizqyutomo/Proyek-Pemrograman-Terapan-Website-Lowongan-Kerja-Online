@@ -20,3 +20,14 @@
 
 2372022 - Jason Christian  : Mengerjakan tampilan profil dan register
 
+
+
+18 Oct 2025 - 24 Oct 2025 (Minggu ke - 5)
+
+2372036 - Muhammad Sava Akbar Bastaman: -
+
+2372063 - Rafri Pria Pamungkas : -
+
+2372902 - Fachrizqy Utomo  : Mengerjakan fitur menambahkan pekerjaan, hapus pekerjaan, posting tampilan untuk pekerjaan yang tersedia
+
+2372022 - Jason Christian  : -
