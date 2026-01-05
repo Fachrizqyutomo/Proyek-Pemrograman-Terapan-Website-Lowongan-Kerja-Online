@@ -1,0 +1,7 @@
+FLOW PELAMAR
+pelamar register > login > melihat lowongan pekerjaan > melamar pekerjaan > input biodata > upload cv > kirim lamaran > cek halaman profile untuk melihat status lamara (pending/ accepted/ rejected). 
+
+FLOW HR
+HR register sesuai company > login > melihat daftar pelamar > melihat cv pelamar > HR bisa terima, menolak, dan hapus pelamar. 
+
+HR menambah lowongan pekerjaan sesuai company > isi lowongan > upload lowongan yang tersedia
