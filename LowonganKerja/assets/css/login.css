@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background Animation */
+body {
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.bg-animation {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        #00c6ff,
+        #0072ff,
+        #7f00ff,
+        #e100ff
+    );
+    animation: gradientMove 10s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradientMove {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(-25%, -25%); }
+    100% { transform: translate(0, 0); }
+}
+
+/* Wrapper */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Glass Card */
+.login-card {
+    width: 360px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #fff;
+    animation: popUp 0.8s ease;
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Title */
+.login-card h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.login-card span {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Error */
+.error-message {
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+/* Inputs */
+.login-card input {
+    width: 100%;
+    padding: 13px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+.login-card button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+
+/* Links */
+.links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.links .admin {
+    color: #ffd700;
+}
+
+/* ===============================
+   BACKGROUND IMAGE (BELAKANG KOTAK)
+================================ */
+
+/* Background gambar */
+body {
+    background-image: url("assets/img/bg-login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Overlay biar background tidak terlalu terang */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.success-message {
+    background: rgba(0, 255, 150, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-size: 13px;
+    color: #00ffae;
+}

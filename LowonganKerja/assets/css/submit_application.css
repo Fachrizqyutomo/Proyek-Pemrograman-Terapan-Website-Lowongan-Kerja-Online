@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WRAPPER */
+.success-wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+/* CARD */
+.success-card {
+    background: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 40px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* ICON */
+.icon-success {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    background: #d1e7dd;
+    color: #0f5132;
+    font-size: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXT */
+.success-card h1 {
+    color: #0d6efd;
+    margin-bottom: 12px;
+}
+
+.success-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* BUTTONS */
+.action-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action-btn a {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.action-btn a:first-child {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.action-btn a:first-child:hover {
+    background: #0b5ed7;
+}
+
+.action-btn a.secondary {
+    background: #e9ecef;
+    color: #333;
+}
+
+.action-btn a.secondary:hover {
+    background: #dfe3e6;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
